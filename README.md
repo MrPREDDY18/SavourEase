@@ -72,7 +72,7 @@ SavourEase/
 
 Clone the Repository
 
-- git clone https://github.com/your-username/SavourEase.git
+- git clone : https://github.com/MrPREDDY18/SavourEase.git 
 
 
 ## Open the Project
