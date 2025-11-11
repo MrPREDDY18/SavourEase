@@ -1,1 +1,87 @@
+## SavourEase
 
+*SavourEase* is a *Savouries Business Website & Mobile Application* designed to enhance service delivery, order management, and inventory control for local savoury businesses.  
+The platform allows customers to easily browse, order, and pay for savoury products, while giving administrators the tools to manage orders, update inventory, and track business performance — all in one place.
+
+---
+
+## 🌐 Project Overview
+
+*SavourEase* aims to:
+- Provide customers with a *user-friendly online ordering experience* via web and mobile.
+- Enable business owners to *manage inventory, update product listings, and monitor orders* efficiently.
+- Deliver real-time updates on *order status* and *delivery tracking*.
+- Support *secure online payments* and reliable data handling through Azure integration.
+
+---
+
+## 🧑‍💻 Development Team
+
+| Name | Role | Responsibilities |
+|------|------|------------------|
+| *Liam Petersen* | Mobile Developer | Develops and maintains the Android app (Kotlin), implements UI and ordering features. |
+| *Keanu [Surname]* | Backend Developer | Builds and integrates the API and database systems, ensures secure communication. |
+| *Meekaa-eel Abrahams* | Frontend Developer | Develops the website interface and connects it to the backend. |
+
+---
+
+## ⚙ System Components
+
+### 🖥 Web Application
+- Built with *React.js / .NET Blazor (or other chosen frontend tech)*.
+- Provides product catalog, shopping cart, and online ordering.
+
+### 📱 Mobile Application
+- Developed with *Kotlin* (Android).
+- Supports account creation, ordering, notifications, and delivery tracking.
+
+### 🔙 Backend & Database
+- Implemented using *.NET Core / Node.js* and *SQL Server / Firebase*.
+- Handles user authentication, payments, inventory, and order management.
+
+---
+
+## 🧩 Key Features
+
+### 👨‍🍳 Customer Features
+- View savoury items with images, descriptions, and prices  
+- Add items to cart and complete secure payments  
+- Track order status (Processing → Out for Delivery → Delivered)  
+- Manage profile, saved addresses, and past orders  
+- Receive push notifications for order updates and promotions  
+
+### 🧑‍💼 Admin Features
+- Add, edit, or remove product listings  
+- Manage inventory levels in real time  
+- View, approve, and process orders  
+- Generate sales and inventory reports  
+- Configure delivery and promotional settings  
+
+---
+
+## 🛠 Technology Stack
+
+| Layer | Technology |
+|-------|-------------|
+| *Frontend (Web)* | React.js / .NET Blazor |
+| *Mobile App* | Kotlin (Android) |
+| *Backend API* | .NET Core / Node.js |
+| *Database* | Microsoft SQL Server / Firebase |
+| *Hosting & CI/CD* | Azure DevOps Pipelines + Azure App Services |
+| *Version Control* | Azure Repos (Git) |
+| *Testing* | NUnit / Jest / Postman |
+| *Project Management* | Azure Boards (Agile methodology) |
+
+---
+
+## 📁 Project Structure
+
+```bash
+SavourEase/
+│
+├── frontend-web/         # Web application source code
+├── mobile-app/           # Android Kotlin application
+├── backend-api/          # RESTful API backend
+├── database/             # SQL scripts, ER diagrams, seed data
+├── docs/                 # Project documentation (plans, reports, guides)
+└── README.md             # This file
